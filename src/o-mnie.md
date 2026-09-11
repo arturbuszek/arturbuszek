@@ -5,7 +5,7 @@ description: Biografia Artura Buszka.
 permalink: /o-mnie/index.html
 ---
 <div class="container"><section class="page-hero"><div class="eyebrow">O mnie</div><h1>Łączę samorząd, działalność społeczną i historię.</h1><p>Krótka i pełna biografia w jednym miejscu.</p></section>
-<section class="prose"><h2>Wersja krótka</h2><p>Jestem samorządowcem i osobą od lat zaangażowaną w rozwój społeczeństwa obywatelskiego. W pracy publicznej koncentruję się na współpracy mieszkańców, organizacji społecznych i administracji, dialogu obywatelskim oraz budowaniu silnych lokalnych wspólnot.
+<section class="prose"><h2>Artur Buszek</h2><p>Jestem samorządowcem i osobą od lat zaangażowaną w rozwój społeczeństwa obywatelskiego. W pracy publicznej koncentruję się na współpracy mieszkańców, organizacji społecznych i administracji, dialogu obywatelskim oraz budowaniu silnych lokalnych wspólnot.
 
 Z wykształcenia jestem archeologiem. Dlatego ważne miejsce w mojej działalności i zainteresowaniach zajmują również historia, kultura i dziedzictwo — zarówno to zapisane w ziemi, jak i to, które tworzymy każdego dnia jako lokalne społeczności.</p><h2>Droga</h2><p>Ukończyłem archeologię na Uniwersytecie Jagiellońskim, specjalizując się w archeologii śródziemnomorskiej. Swoją drogę zawodową zaczynałem jako archeolog. Pracowałem przy badaniach wykopaliskowych i geofizycznych w Polsce oraz za granicą — m.in. w Egipcie, Sudanie, na Ukrainie, Cyprze i w Niemczech. Współpracowałem przy projektach realizowanych przez polskie i zagraniczne instytucje naukowe, m.in. Uniwersytet Jagielloński, Yale University i The British Museum.
 
