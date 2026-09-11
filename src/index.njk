@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+title:
+description: Samorząd. Społeczeństwo obywatelskie. Ludzie i miejsca.
+---
+<section class="hero hero-editorial">
+  <img class="hero-editorial-image" src="/assets/photos/hero-artur-buszek.webp" alt="Artur Buszek">
+  <div class="hero-editorial-shade" aria-hidden="true"></div>
+  <div class="container hero-editorial-content">
+    <div class="hero-editorial-copy">
+      <div class="eyebrow hero-eyebrow">Strona osobista</div>
+      <h1>Artur<br>Buszek</h1>
+      <p class="lead">Samorząd. Społeczeństwo obywatelskie. Ludzie i miejsca. Interesuje mnie polityka rozumiana jako odpowiedzialność za wspólnotę — blisko mieszkańców i konkretnych spraw.</p>
+      <div class="hero-actions">
+        <a class="btn btn-light" href="/dzialam/">Zobacz, czym się zajmuję →</a>
+        <a class="btn btn-ghost-light" href="/kontakt/">Napisz do mnie</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">To jest dla mnie ważne</div><h2>Cztery obszary działania</h2></div>
+      <p class="muted">Trwałe obszary pracy publicznej, niezależne od pełnionej w danym momencie funkcji.</p>
+    </div>
+    <div class="cards">
+      <article class="card"><span class="num">01</span><div><h3>Społeczeństwo obywatelskie</h3><p>NGO, wolontariat, konsultacje i współpraca.</p></div><a href="/tematy/">Czytaj więcej →</a></article>
+      <article class="card"><span class="num">02</span><div><h3>Samorząd blisko ludzi</h3><p>Zrozumiałe i dostępne decyzje publiczne.</p></div><a href="/tematy/">Czytaj więcej →</a></article>
+      <article class="card"><span class="num">03</span><div><h3>Lokalne wspólnoty</h3><p>Miejsca, inicjatywy i ludzie budujący więzi.</p></div><a href="/ludzie-i-miejsca/">Poznaj miejsca →</a></article>
+      <article class="card"><span class="num">04</span><div><h3>Kultura i dziedzictwo</h3><p>Historia jako część tożsamości i rozwoju.</p></div><a href="/tematy/">Czytaj więcej →</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow">Najnowsze</div><h2>Ostatnie aktualności</h2></div><p class="muted">Strona główna pokazuje tylko trzy najnowsze opublikowane materiały.</p></div>
+    <div class="news-grid">
+      {% for post in collections.aktualnosci | limit(3) %}
+      <article class="news-card">{% if post.data.image %}<img src="{{ post.data.image }}" alt="{{ post.data.imageAlt or '' }}">{% endif %}
+      <div class="news-body"><span class="tag">{{ post.data.category or "Aktualność" }}</span><h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3><p>{{ post.data.description }}</p></div></article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-box home-contact-box">
+      <div><div class="eyebrow" style="color:#ffe1d8">Kontakt</div><h2>Masz sprawę, pomysł albo chcesz porozmawiać?</h2><p>Napisz wiadomość i krótko opisz temat.</p><p><a class="btn btn-ghost-light" href="/kontakt/">Przejdź do kontaktu →</a></p></div>
+      <img class="home-contact-photo" src="/assets/photos/artur-buszek-kontakt.webp" alt="Artur Buszek">
+    </div>
+  </div>
+</section>
