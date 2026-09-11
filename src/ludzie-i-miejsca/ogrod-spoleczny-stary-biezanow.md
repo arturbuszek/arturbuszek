@@ -5,7 +5,7 @@ description: "Ogród Społeczny Stary Bieżanów pokazuje, jak inicjatywa mieszk
 date: 2026-09-11
 category: "Ludzie i miejsca"
 location: "Stary Bieżanów, Kraków"
-image: /assets/place-placeholder.svg
+image: /assets/articles/ogrod-spoleczny-stary-biezanow.webp
 imageAlt: "Ogród Społeczny Stary Bieżanów i osoby korzystające z przestrzeni"
 suggestedImageName: "ogrod-spoleczny-stary-biezanow.jpg"
 author: "Artur Buszek"
