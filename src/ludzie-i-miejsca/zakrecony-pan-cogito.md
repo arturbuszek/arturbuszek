@@ -5,7 +5,7 @@ description: "Kawiarnia społeczna przy Muzeum Krakowa łączy kulturę, aktywiz
 date: 2026-09-11
 category: "Ludzie i miejsca"
 location: "Kraków"
-image: /assets/place-placeholder.svg
+image: /assets/articles/zakrecony-pan-cogito.webp
 imageAlt: "Kawiarnia społeczna Zakręcony Pan Cogito przy Muzeum Krakowa"
 suggestedImageName: "zakrecony-pan-cogito.jpg"
 author: "Artur Buszek"
