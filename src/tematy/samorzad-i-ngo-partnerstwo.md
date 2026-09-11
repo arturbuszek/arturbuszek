@@ -4,7 +4,7 @@ title: "Samorząd i NGO. Partnerstwo powinno oznaczać coś więcej niż konkurs
 description: "Organizacje pozarządowe powinny być nie tylko wykonawcami zadań publicznych, ale także partnerami samorządu w projektowaniu polityk i rozwiązań dla mieszkańców."
 date: 2026-09-11
 category: "Tematy"
-image: /assets/news-placeholder.svg
+image: /assets/articles/samorzad-ngo-partnerstwo.webp
 imageAlt: "Przedstawiciele organizacji społecznych i samorządu podczas wspólnej rozmowy"
 suggestedImageName: "samorzad-ngo-partnerstwo.jpg"
 author: "Artur Buszek"
