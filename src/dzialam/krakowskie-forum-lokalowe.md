@@ -4,7 +4,7 @@ title: "Krakowskie Forum Lokalowe. Od problemu z lokalami do wspólnego szukania
 description: "Jak Krakowskie Forum Lokalowe stało się przestrzenią wspólnego wypracowywania rozwiązań dotyczących lokali i przestrzeni dla organizacji pozarządowych w Krakowie."
 date: 2026-09-11
 category: "Działam"
-image: /assets/news-placeholder.svg
+image: /assets/articles/krakowskie-forum-lokalowe.webp
 imageAlt: "Spotkanie przedstawicieli organizacji pozarządowych i samorządu podczas prac Krakowskiego Forum Lokalowego"
 suggestedImageName: "krakowskie-forum-lokalowe.jpg"
 author: "Artur Buszek"
