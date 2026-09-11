@@ -5,7 +5,7 @@ description: "Fundacja HITA prowadzi w Krakowie cztery Centra Aktywności Senior
 date: 2026-09-11
 category: "Ludzie i miejsca"
 location: "Kraków"
-image: /assets/place-placeholder.svg
+image: /assets/articles/fundacja-hita-cas.webp
 imageAlt: "Seniorzy i młodzież podczas wspólnego działania międzypokoleniowego"
 suggestedImageName: "fundacja-hita-centra-aktywnosci-seniorow.jpg"
 author: "Artur Buszek"
