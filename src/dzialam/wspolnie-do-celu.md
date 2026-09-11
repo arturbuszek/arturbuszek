@@ -4,7 +4,7 @@ title: "Wspólnie do celu. Bo współpraca zaczyna się od poznania ludzi"
 description: "Cykl „Wspólnie do celu” tworzy przestrzeń, w której krakowskie organizacje pozarządowe mogą się poznawać, wymieniać doświadczenia i budować partnerstwa."
 date: 2026-09-11
 category: "Działam"
-image: /assets/news-placeholder.svg
+image: /assets/articles/wspolnie-do-celu.webp
 imageAlt: "Przedstawiciele krakowskich organizacji pozarządowych podczas spotkania integracyjnego"
 suggestedImageName: "wspolnie-do-celu.jpg"
 author: "Artur Buszek"
