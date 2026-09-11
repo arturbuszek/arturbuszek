@@ -4,7 +4,7 @@ title: "Trzecie miejsca. Infrastruktura społeczna, której nie widać w tabeli"
 description: "Ogrody społeczne, kawiarnie społeczne i centra aktywności to nie tylko lokale. To miejsca, w których powstają relacje i lokalna wspólnota."
 date: 2026-09-11
 category: "Tematy"
-image: /assets/place-placeholder.svg
+image: /assets/articles/trzecie-miejsca.webp
 imageAlt: "Ludzie spotykający się w lokalnej przestrzeni społecznej"
 suggestedImageName: "trzecie-miejsca-krakow.jpg"
 author: "Artur Buszek"
