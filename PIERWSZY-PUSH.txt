@@ -1,0 +1,10 @@
+Po utworzeniu pustego repozytorium na GitHubie uruchom w tym folderze:
+
+git init
+git add .
+git commit -m "Pierwsza wersja arturbuszek.pl"
+git branch -M main
+git remote add origin https://github.com/TWOJ_LOGIN/arturbuszek.pl.git
+git push -u origin main
+
+Zamień TWOJ_LOGIN na nazwę swojego konta GitHub.

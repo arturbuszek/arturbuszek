@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+title: Ludzie i miejsca
+description: Lokalne historie, organizacje i miejsca.
+permalink: /ludzie-i-miejsca/index.html
+---
+<div class="container"><section class="page-hero"><div class="eyebrow">Ludzie i miejsca</div><h1>Mapa lokalnych historii.</h1><p>Bohaterem jest człowiek, miejsce albo inicjatywa — nie samo spotkanie.</p></section>
+<section class="list-stack">
+{% for post in collections.miejsca %}
+<article class="list-item">{% if post.data.image %}<img src="{{ post.data.image }}" alt="{{ post.data.imageAlt or '' }}">{% endif %}
+<div><span class="tag">{{ post.data.location or "Lokalnie" }}</span><h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3><p>{{ post.data.description }}</p></div></article>
+{% endfor %}
+</section></div>

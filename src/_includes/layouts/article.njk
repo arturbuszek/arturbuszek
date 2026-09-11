@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+---
+<div class="container article">
+  <div class="eyebrow">{{ category or "Aktualność" }}</div>
+  <h1>{{ title }}</h1>
+  <div class="article-meta">{{ page.date | datePL }}{% if author %} • {{ author }}{% endif %}</div>
+  {% if image %}<img class="article-cover" src="{{ image }}" alt="{{ imageAlt or '' }}">{% endif %}
+  <div class="article-body">{{ content | safe }}</div>
+</div>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% if title %}{{ title }} — {% endif %}{{ site.name }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="stylesheet" href="/assets/style.css">
+<meta property="og:title" content="{{ title or site.name }}">
+<meta property="og:description" content="{{ description or site.description }}">
+</head>
+<body>
+<a class="skip" href="#main">Przejdź do treści</a>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">ARTUR <span>BUSZEK</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-label="Otwórz menu">☰</button>
+    <nav class="menu">
+      <a href="/o-mnie/">O mnie</a>
+      <a href="/dzialam/">Działam</a>
+      <a href="/tematy/">Tematy</a>
+      <a href="/ludzie-i-miejsca/">Ludzie i miejsca</a>
+      <a href="/aktualnosci/">Aktualności</a>
+      <a class="nav-cta" href="/kontakt/">Kontakt</a>
+    </nav>
+  </div>
+</header>
+<main id="main">{{ content | safe }}</main>
+<footer class="footer">
+<div class="container footer-grid">
+  <div><strong>{{ site.name }}</strong><br><span class="muted">{{ site.description }}</span></div>
+  <div class="footer-links"><a href="/kontakt/">Kontakt</a><a href="/polityka-prywatnosci/">Prywatność</a><a href="{{ site.facebook }}">Facebook</a></div>
+</div>
+</footer>
+<script src="/assets/main.js"></script>
+</body></html>
