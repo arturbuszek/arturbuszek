@@ -4,7 +4,7 @@ title: "Fundusz Wkładów Własnych. Mały mechanizm, który może otworzyć dos
 description: "Dlaczego miejski Fundusz Wkładów Własnych może zwiększać zdolność organizacji pozarządowych do pozyskiwania pieniędzy z grantów i programów zewnętrznych."
 date: 2026-09-11
 category: "Działam"
-image: /assets/news-placeholder.svg
+image: /assets/articles/fundusz-wkladow-wlasnych.webp
 imageAlt: "Symboliczne zdjęcie przedstawiające finansowanie projektu społecznego"
 suggestedImageName: "fundusz-wkladow-wlasnych.jpg"
 author: "Artur Buszek"
