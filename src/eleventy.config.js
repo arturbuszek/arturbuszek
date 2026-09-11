@@ -8,32 +8,38 @@ export default function(eleventyConfig) {
   eleventyConfig.addFilter("datePL", (dateObj) => {
     const d = new Date(dateObj);
     return new Intl.DateTimeFormat("pl-PL", {
-      year: "numeric", month: "long", day: "numeric"
+      year: "numeric",
+      month: "long",
+      day: "numeric"
     }).format(d);
   });
 
   eleventyConfig.addCollection("aktualnosci", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/aktualnosci/*.md")
+    return collectionApi
+      .getFilteredByGlob("src/aktualnosci/*.md")
       .filter(item => !item.data.draft)
-      .sort((a,b) => b.date - a.date);
+      .sort((a, b) => b.date - a.date);
   });
 
   eleventyConfig.addCollection("dzialam", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/dzialam/*.md")
+    return collectionApi
+      .getFilteredByGlob("src/dzialam/*.md")
       .filter(item => !item.data.draft)
-      .sort((a,b) => b.date - a.date);
+      .sort((a, b) => b.date - a.date);
   });
 
   eleventyConfig.addCollection("tematy", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/tematy/*.md")
+    return collectionApi
+      .getFilteredByGlob("src/tematy/*.md")
       .filter(item => !item.data.draft)
-      .sort((a,b) => b.date - a.date);
+      .sort((a, b) => b.date - a.date);
   });
 
   eleventyConfig.addCollection("miejsca", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/ludzie-i-miejsca/*.md")
+    return collectionApi
+      .getFilteredByGlob("src/ludzie-i-miejsca/*.md")
       .filter(item => !item.data.draft)
-      .sort((a,b) => b.date - a.date);
+      .sort((a, b) => b.date - a.date);
   });
 
   return {
