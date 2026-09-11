@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="/assets/style.css">
 <meta property="og:title" content="{{ title or site.name }}">
 <meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ site.url }}/assets/photos/hero-artur-buszek.webp">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head>
 <body>
 <a class="skip" href="#main">Przejdź do treści</a>
@@ -27,17 +30,16 @@
 </header>
 <main id="main">{{ content | safe }}</main>
 <footer class="footer">
-<div class="container footer-grid">
-  <div><strong>{{ site.name }}</strong><br><span class="muted">{{ site.description }}</span></div>
- <div class="footer-links">
-  <a href="/kontakt/">Kontakt</a>
-  <a href="/polityka-prywatnosci/">Prywatność</a>
-
-  <a href="{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a>
-
-  <a href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram</a>
-
-</div>
+  <div class="container footer-grid">
+    <div><strong>{{ site.name }}</strong><br><span class="muted">{{ site.description }}</span></div>
+    <div class="footer-links">
+      <a href="/kontakt/">Kontakt</a>
+      <a href="/polityka-prywatnosci/">Prywatność</a>
+      {% if site.facebook %}<a href="{{ site.facebook }}" target="_blank" rel="noopener">Facebook ↗</a>{% endif %}
+      {% if site.instagram %}<a href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram ↗</a>{% endif %}
+    </div>
+  </div>
 </footer>
 <script src="/assets/main.js"></script>
-</body></html>
+</body>
+</html>
