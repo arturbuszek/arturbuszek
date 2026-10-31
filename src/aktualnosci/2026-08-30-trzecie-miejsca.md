@@ -1,17 +1,14 @@
 ---
-layout: layouts/article.njk
+layout: "layouts/article.njk"
 title: "Dlaczego potrzebujemy trzecich miejsc"
-description: "Po co miastom i gminom miejsca wspólne? O relacjach, kapitale społecznym, krakowskich MAM i współpracy samorządu z NGO."
+description: "O roli trzecich miejsc, relacjach sąsiedzkich i krakowskich Miejscach Aktywności Mieszkańców."
 date: 2026-10-31
 category: "Ludzie i miejsca"
 image: "/assets/place-placeholder.svg"
-imageAlt: "Grafika zastępcza dla artykułu o trzecich miejscach"
+imageAlt: "Miejsca wspólne i aktywność mieszkańców"
 author: "Artur Buszek"
 draft: false
 permalink: "/aktualnosci/dlaczego-potrzebujemy-trzecich-miejsc/index.html"
-seoTitle: "Dlaczego potrzebujemy trzecich miejsc? | Artur Buszek"
-seoDescription: "Trzecie miejsca budują więzi, zaufanie i współpracę. Krakowskie doświadczenia MAM, dialog z NGO i rozwiązania dla miast oraz mniejszych gmin."
-keywords: "trzecie miejsca, miejsca wspólne, MAM, Kraków, społeczeństwo obywatelskie, organizacje pozarządowe, kapitał społeczny, samorząd"
 Można mieszkać w tym samym bloku przez kilkanaście lat i nie znać sąsiadów. Można codziennie mijać tych samych ludzi, nie zamieniając z nimi ani słowa. Można też żyć w mieście pełnym wydarzeń, instytucji i możliwości, a jednocześnie odczuwać samotność. Właśnie dlatego potrzebujemy trzecich miejsc – przestrzeni, w których spotkanie z drugim człowiekiem staje się czymś naturalnym.
 Kiedy myślimy o rozwoju miasta czy gminy, zazwyczaj rozmawiamy o drogach, komunikacji, szkołach, terenach zielonych czy inwestycjach. To wszystko jest ważne. Ale o jakości życia decyduje również coś mniej uchwytnego: relacje między ludźmi, poczucie przynależności do lokalnej społeczności, wzajemne zaufanie i przekonanie, że mamy wpływ na nasze otoczenie.
 Tych wartości nie da się zbudować wyłącznie poprzez inwestycje infrastrukturalne. Potrzebujemy również miejsc, w których ludzie mogą się poznawać, rozmawiać, spędzać razem czas i podejmować wspólne działania.
