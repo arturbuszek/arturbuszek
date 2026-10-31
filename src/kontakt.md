@@ -34,7 +34,23 @@ permalink: /kontakt/index.html
   </a>
 </p>
 {% endif %}
+{% if site.linkedin %}
+<p>
+  <strong>LinkedIn:</strong>
+  <a href="{{ site.linkedin }}" target="_blank" rel="noopener">
+    linkedin.com/in/artur-buszek
+  </a>
+</p>
+{% endif %}
 
+{% if site.tiktok %}
+<p>
+  <strong>TikTok:</strong>
+  <a href="{{ site.tiktok }}" target="_blank" rel="noopener">
+    @arturbuszek
+  </a>
+</p>
+{% endif %}
 <div class="note">
   W sprawach związanych z pełnioną funkcją publiczną warto korzystać także z właściwych oficjalnych kanałów instytucjonalnych.
 </div>
