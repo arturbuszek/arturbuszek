@@ -51,6 +51,7 @@ permalink: /kontakt/index.html
   </a>
 </p>
 {% endif %}
+
 <div class="note">
   W sprawach związanych z pełnioną funkcją publiczną warto korzystać także z właściwych oficjalnych kanałów instytucjonalnych.
 </div>
