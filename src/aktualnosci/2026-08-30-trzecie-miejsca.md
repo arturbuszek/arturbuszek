@@ -9,6 +9,8 @@ imageAlt: "Miejsca wspólne i aktywność mieszkańców"
 author: "Artur Buszek"
 draft: false
 permalink: "/aktualnosci/dlaczego-potrzebujemy-trzecich-miejsc/index.html"
+---
+
 Można mieszkać w tym samym bloku przez kilkanaście lat i nie znać sąsiadów. Można codziennie mijać tych samych ludzi, nie zamieniając z nimi ani słowa. Można też żyć w mieście pełnym wydarzeń, instytucji i możliwości, a jednocześnie odczuwać samotność. Właśnie dlatego potrzebujemy trzecich miejsc – przestrzeni, w których spotkanie z drugim człowiekiem staje się czymś naturalnym.
 Kiedy myślimy o rozwoju miasta czy gminy, zazwyczaj rozmawiamy o drogach, komunikacji, szkołach, terenach zielonych czy inwestycjach. To wszystko jest ważne. Ale o jakości życia decyduje również coś mniej uchwytnego: relacje między ludźmi, poczucie przynależności do lokalnej społeczności, wzajemne zaufanie i przekonanie, że mamy wpływ na nasze otoczenie.
 Tych wartości nie da się zbudować wyłącznie poprzez inwestycje infrastrukturalne. Potrzebujemy również miejsc, w których ludzie mogą się poznawać, rozmawiać, spędzać razem czas i podejmować wspólne działania.
